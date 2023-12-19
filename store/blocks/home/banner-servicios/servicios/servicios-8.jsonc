@@ -1,0 +1,34 @@
+{
+     /*8*/
+  "flex-layout.col#banner-servicios-8": {
+    "children": [
+      "image#banner-servicios8",
+      "rich-text#banner-servicios-title8",
+      "link.product#banner-servicios8"
+    ],
+    "props": {
+      "blockClass": "box",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#banner-servicios-title8": {
+    "props": {
+      "blockClass": "servicios-title",
+      "text": "Interfaz y experiencia\n  de usuario"
+     
+    }
+  },
+  "image#banner-servicios8": {
+    "props": {
+      "blockClass": "img-servicios",
+      "src": "assets/home/services/iconos-serv4.png"
+    }
+  },
+  "link.product#banner-servicios8": {
+    "props": {
+      "blockClass": "link-servicios",
+      "href": "/{slug}/p",
+      "label": "+Informacion"
+    }
+  }
+}

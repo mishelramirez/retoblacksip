@@ -1,0 +1,26 @@
+{
+  "responsive-layout.mobile#home-banner-servicios": {
+    "children": [
+      "flex-layout.row#banner-servicios-mobile"
+  ],
+    "props": {
+      "blockClass": "banner-servicios-container"
+    }
+  },
+  "flex-layout.row#banner-servicios-mobile": {
+    "children": [
+      
+     "flex-layout.col#banner-servicios-1",
+      "flex-layout.col#banner-servicios-2",
+      "flex-layout.col#banner-servicios-3",
+      "flex-layout.col#banner-servicios-4",
+      "flex-layout.col#banner-servicios-5",
+      "flex-layout.col#banner-servicios-6",
+      "flex-layout.col#banner-servicios-7",
+      "flex-layout.col#banner-servicios-8"
+    ],
+    "props": {
+      "blockClass": "banner-servicios-container-mobile"
+    }
+  }
+}

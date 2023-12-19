@@ -1,0 +1,34 @@
+{
+    /*3*/
+  "flex-layout.col#banner-servicios-3": {
+    "children": [
+      "image#banner-servicios3",
+      "rich-text#banner-servicios-title3",
+      "link.product#banner-servicios3"
+    ],
+    "props": {
+      "blockClass": "box",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#banner-servicios-title3": {
+    "props": {
+      "blockClass": "servicios-title",
+      "text": "E-commerce y \n omni-channel commerce",
+      "textAlignment": "CENTER"
+    }
+  },
+  "image#banner-servicios3": {
+    "props": {
+      "blockClass": "img-servicios",
+      "src": "assets/home/services/iconos-serv2.png"
+    }
+  },
+  "link.product#banner-servicios3": {
+    "props": {
+      "blockClass": "link-servicios",
+      "href": "/{slug}/p",
+      "label": "+Informacion"
+    }
+  }
+}

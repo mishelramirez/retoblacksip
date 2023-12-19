@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#footer-container": {
+    "children": ["flex-layout.col#footer-container"],
+    "props": {
+      "blockClass": "footer-container"
+    }
+  },
+  "flex-layout.col#footer-container": {
+    "children": ["rich-text#text-footer"]
+  },
+
+  "rich-text#text-footer": {
+    "props": {
+      "text": " Derechos reservados BlackSip® © 2017 BlackSip.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-footer"
+    }
+  }
+}

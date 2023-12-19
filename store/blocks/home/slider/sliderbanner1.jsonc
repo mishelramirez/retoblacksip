@@ -1,0 +1,44 @@
+{
+"list-context.image-list#baner-uno": {
+    "children": [  "slider-layout#baner-uno"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "blockClass": "img-banner-uno",
+          "image": "assets/home/slider/main-1.jpg",
+          "description": "image-banner-uno"
+        },
+        {
+          "blockClass": "img-banner-uno",
+          "image":"assets/home/slider/main-2.jpg",
+          "description": "image-banner-dos"
+        }
+      ]
+    }
+  },
+  "slider-layout#baner-uno": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+
+      "slideTransition": {
+        "speed": 2000,
+        "delay": 0,
+        "timing": ""
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "fullWidth": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.paragraph--banner-uno{
+    font-size: 20px;
+    line-height: 1.5;
+}   
+.container--text-informative{
+    margin-top: 2rem;
+}
+.wrapper--text-informative{
+    max-width: 770px ;
+    margin: 0 auto; 
+}
+
+.container--title{
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.wrapper--title{
+    margin: 0 auto;
+}
+
+.paragraph--servicios-title{
+    margin-top: 0px;
+    margin-bottom: 30px;
+   
+}
+.servicios-title1{
+    font-size: 30px;
+}

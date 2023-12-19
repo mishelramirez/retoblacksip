@@ -1,0 +1,25 @@
+{
+  "flex-layout.col#banner-servicios-1": {
+    "children": [
+      "rich-text#banner-servicios-title",
+      "rich-text#banner-servicios-informativo"
+    ],
+    "props": {
+      "blockClass": "box-servicio",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#banner-servicios-title": {
+    "props": {
+      "blockClass": "servicios-title1",
+      "text": "**Servicios**"
+    }
+  },
+  "rich-text#banner-servicios-informativo": {
+    "props": {
+      "blockClass": "servicios",
+      "text": "En BlackSip somos expertos \n regionales en lograr resultados\n  enfocados a la innovación \n tecnológica, con el fin de lograr\n  que contamos con los siguientes \n 7 servicios:",
+      "textAlignment": "CENTER"
+    }
+  }
+}

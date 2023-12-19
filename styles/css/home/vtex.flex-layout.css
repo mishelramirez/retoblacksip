@@ -1,0 +1,23 @@
+.flexRowContent--banner-servicios-bloque {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
+.flexRow--banner-servicios-container {
+  color: #626262;
+  padding-top: 50px;
+}
+.flexRowContent--banner-servicios-container {
+  background: #e6e6e6; 
+  padding: 30px;
+}
+
+@media (min-width: 640px) {
+  .flexRowContent--banner-servicios-container-mobile {
+    flex-wrap: wrap;
+   
+  }
+  .flexRowContent--banner-servicios-container-mobile .stretchChildrenWidth {
+    width: 25% !important;
+  }
+}

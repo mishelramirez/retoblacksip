@@ -1,0 +1,35 @@
+{
+     /*2*/
+  "flex-layout.col#banner-servicios-2": {
+    "children": [
+      "image#banner-servicios2",
+      "rich-text#banner-servicios-title-2",
+      "link.product#banner-servicios2"
+    ],
+    "props": {
+      "blockClass": "box",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#banner-servicios-title-2": {
+    "props": {
+      "blockClass": "servicios-title",
+      "text": "Estrategia y\n  transformación digital",
+      "textAlignment": "CENTER"
+    }
+  },
+  "image#banner-servicios2": {
+    "props": {
+      "blockClass": "img-servicios",
+      "src": "assets/home/services/iconos-serv1.png"
+    }
+  },
+  "link.product#banner-servicios2": {
+    "props": {
+      "blockClass": "link-servicios",
+      "href": "/{slug}/p",
+      "label": "+ Informacion"
+    }
+    
+  }
+}

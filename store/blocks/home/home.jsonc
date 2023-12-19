@@ -1,0 +1,43 @@
+{
+  "store.home": { 
+    "blocks": [
+      "list-context.image-list#baner-uno",
+      "rich-text#informative",
+      "responsive-layout.desktop",
+      "responsive-layout.phone",
+      "list-context.image-list#slider-footer",
+      "responsive-layout.desktop#home-banner-servicios",
+      "responsive-layout.mobile#home-banner-servicios"
+    ]
+  },
+ 
+  "rich-text#informative": { 
+    "props": { 
+      "text": "Somos una empresa experta en servicios de comercio electrónico enfocada en llevar a nuestros clientes a ser mejores vendiendo a través de canales digitales.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "text-informative"
+    }
+  },
+  /*banner.ribbon*/
+  "responsive-layout.desktop": {
+    "children": ["rich-text#desktop"]
+  },
+
+  "responsive-layout.phone": {
+    "children": ["rich-text#phone"]
+  },
+
+  "rich-text#desktop": {
+    "props": {
+      "text": "Ellos han confiado en nosotros:",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#phone": {
+    "props": {
+      "text": "They have trusted us:",
+      "blockClass": "title"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+/*slider.footer*/
+{
+  "list-context.image-list#slider-footer": {
+    "children": ["slider-layout#slider-footer"],
+
+    "props": {
+      "images": [
+        {
+          "blockClass": "img-banner-dos",
+          "image": "assets/home/partners-1.png",
+          "description": "image-banner-uno"
+        },
+        {
+          "blockClass": "img-banner-dos",
+          "image": "assets/home/partners-2.png",
+          "description": "image-banner-dos"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#slider-footer": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+
+      "slideTransition": {
+        "speed": 2000,
+        "delay": 0,
+        "timing": ""
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "fullWidth": true
+    }
+  }
+}
