@@ -1,0 +1,8 @@
+.buyButton--button-product :global(.vtex-button) {
+    border: 1px solid #000;
+    background: #000;
+    border-radius: 30px;
+}
+.priceContainer--price-product{
+    margin-top: auto;
+}

@@ -1,0 +1,7 @@
+.product-vitrina{
+    gap: 30px;
+}
+
+.slideChildrenContainer--product-vitrina :global(.vtex-product-summary-2-x-element){
+    padding: 0 15px;
+}

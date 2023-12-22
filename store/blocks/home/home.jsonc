@@ -7,7 +7,9 @@
       "responsive-layout.phone",
       "list-context.image-list#slider-footer",
       "responsive-layout.desktop#home-banner-servicios",
-      "responsive-layout.mobile#home-banner-servicios"
+      "responsive-layout.mobile#home-banner-servicios",
+      "flex-layout.row#product-summary"
+
     ]
   },
  
